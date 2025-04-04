@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+@import "tailwindcss";
+
+@theme {
+    --color-background: #0f0f0f;
+    --color-text: #f3f3f3;
+    --color-foreground: #8cc800;
+    --color-border: #affa01;
+    --color-accent: #cecece;
+}
+
+@layer base {
+}
+
+.pm__header-home{
+    background: url('/images/home/header-bg.jpg') center center/cover no-repeat;
+}
+
+.pm__header-about {
+    background: url('/images/about/header-bg.jpg') center center/cover no-repeat;
+}
+/* Add any additional global styles if needed */
